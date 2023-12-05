@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(143, 77, 3);
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(8, 8, 8, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.service {
+    margin-bottom: 30px;
+}
+
+.service h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.service-name {
+    font-weight: bold;
+}
+
+.price {
+    color: #070707;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    background-color: rgb(250, 112, 48);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: rgb(241, 236, 236);
+    color: #fff;
+}

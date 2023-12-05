@@ -1,0 +1,38 @@
+#services {
+    background-color: rgb(145, 248, 226);
+    color: #333;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.service {
+    max-width: 300px;
+    margin: 0 auto 40px;
+}
+
+.service img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.service h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.service p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    background-color: rgb(250, 112, 48);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+/* Style for the services section */
